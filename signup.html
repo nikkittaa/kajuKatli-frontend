@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Login</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+body{
+  background: linear-gradient(to right, #00204a, #00bbf0);
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainc{
+    display: flex;
+    padding: 30px;
+    background-color: #F8F8F8;
+    justify-content: center;
+    width:55%;
+    border-radius: 7px;
+
+}
+.inputc{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+    line-height: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.121);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputs{
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+input[type=email], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  input[type=email]:hover, input[type=password]:hover {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #005792;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+label{
+    margin-top: 5px;
+}
+
+button {
+    background-color:#005792;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 85%;
+  }
+
+  .btn{
+    border-radius: 3px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+  }
+
+  .btn:hover{
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: #005792;
+    color: white;
+  }
+      </style>
+    </head>
+    <body >
+        <div class="mainC" >
+            <div class="inputC" >
+              <h1>Create Account</h1>
+              <p>Already have an account? <a href="#" style="color: #005792;">SignIn</a></p>
+                <form method="POST">
+                <div class="inputs">
+              <label ><img src="mail.png" height="30px"></label>
+              <input type="email" placeholder="you@example.com" class="form-control" id="email" name="email" required autofocus>
+              <br>
+              <label><img src="secure.png" height="30px"></label>
+              <input type="password" placeholder="Enter 7 characters or more" class="form-control" id="password1" name="password1" required>
+              <label><img src="secure.png" height="30px"></label>
+              <input type="password" placeholder="Re-Enter Password" class="form-control" id="password2" name="password2" required>
+
+                <button type="submit" class="btn"><form action="login.html">Create Account</form></button>
+                </div>
+                </form>
+            </div>
+
+            <div class="img">
+                <img src="portfolio-2.png" height="400px" style="margin-top: 30px;">
+            </div>
+            </div>
+
+
+    </body>
+</html>
